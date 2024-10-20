@@ -1,0 +1,123 @@
+{
+  "Sidebar": {
+    "about": "About",
+    "projects": "Projects"
+  },
+  "Hero": {
+    "title": "Hi, I'm Dmitry",
+    "tagline": "Frontend Developer",
+    "p1": "For the past 8 years, I’ve been building websites with a focus on React and Next.js.",
+    "p2": "Let's bring your projects to life."
+  },
+  "About": {
+    "section": "About",
+    "p1": "Hi, I’m Dmitry — a full-stack web developer with a frontend focus. I specialize in creating responsive, high-performance applications. With 8+ years of industry experience, I’ve developed solutions that are not just technically sound but also user-centered and business-driven. My goal is simple: deliver clean, efficient, and scalable code that powers impactful digital experiences.",
+    "p2": "Frontend is my playground, and React is my specialty. I've led projects using React, Next.js, Redux Toolkit, TypeScript, and Styled Components — always with a focus on performance and user experience. At EGO Creative Innovations, I built a customer-facing mortgage platform from scratch and developed a complete UI library, boosting session duration by over 60%. Whether it’s creating reusable components, implementing modern design systems, or collaborating closely with UX teams, I bring structure and clarity to every interface I build.",
+    "p3": "When I’m not coding, I focus on sharpening my soft skills: autonomy, clear communication, adaptability, and time management. These traits help me thrive in fast-paced environments and build strong, respectful working relationships.",
+    "p4": "Let’s connect — I’m open to collaboration, freelancing, and new full-time opportunities.",
+    "links": "Links"
+  },
+  "Projects": {
+    "section": "Projects",
+    "gallery": "Full Gallery",
+
+    "desc1": "This project is a React-based frontend application that uses GraphQL to fetch and display data from the Rick and Morty API. It features character listing, filtering, and pagination using Apollo Client for GraphQL integration, and React Router for navigation.",
+    "desc2": "A React + TypeScript app that fetches data from the Star Wars API (SWAPI). It displays characters with pagination, filtering, and detailed views, using modern React features and clean component structure.",
+    "desc3": "A React + TypeScript search interface. Features include debounced search input, loading states, and a clean, responsive UI.",
+    "desc4": "Log/Pass - admin/admin. An Angular + TypeScript application for managing a list of racers. It includes features like racer creation, lazy loading, filtering, and modular component structure, styled with SCSS.",
+    "desc5": "A small React + TypeScript project showcasing a simple list and input components with local state management. Useful for testing component behavior and UI interactions. https://jsonplaceholder.typicode.com/users  was used as API",
+    "desc6": "A full stack React + Express application simulating a logistics dashboard. It features a simple layout with input forms, table views, and modular components — ideal for prototyping logistics-related UI",
+    "desc7": "A React + Express application that uses GitHub’s GraphQL API to search repositories and display results. Built with Apollo Client and Material UI for a clean, responsive interface.",
+    "desc8": "A full stack application built with React and Express for displaying public transport stop information. It features dynamic data fetching, filtering, and a clean UI for exploring nearby stops.",
+    "desc9": "A React + Three.js application that renders and interacts with a 3D human model in the browser. Built with @react-three/fiber for smooth WebGL integration and real-time 3D rendering.",
+    "desc10": "A minimal project using React and @react-three/fiber to render and animate 3D objects in the browser. Great for experimenting with Three.js in a React environment.",
+    "desc11": "A React + TypeScript project simulating submarine control and navigation with interactive UI elements and real-time state updates, showcasing complex component interactions."
+  },
+  "Experience": {
+    "section": "Experience",
+    "exp1": "EGO Creatives Innovations",
+    "role1": "Senior Frontend Developer / part time",
+    "date1": "February 2022 - Present",
+    "loca1": "Remote",
+    "companyOverview1": "Ego Creatives is a digital agency based in Hong Kong, delivering tailored solutions for international markets. During my time there, I worked on a Canadian mortgage platform and several internal tools.",
+    "team1": "International, English-speaking team: Myself (frontend developer), Backend developer (Canada), Designer, Project Manager, Product Owner (both Canada-based). Full remote collaboration with a focus on product ownership and cross-functional communication.",
+    "contributions1": [
+      "Designed and developed the entire frontend architecture from scratch for a three-part system: Embeddable mortgage calculator widget for external websites, Admin panel for clients to customize and manage calculators, Admin panel for brokers to monitor and analyze client activity",
+      "Led system design and frontend architecture decisions, focusing on scalability, performance, and modularity. This experience significantly enhanced my skills in system design and cross-team collaboration in English.",
+      "After completing the core development, transitioned into a consulting role, assisting with support and feature planning due to my deep understanding of the system’s foundations.",
+      "UI Library: Contributed to an internal component library for consistent design and faster development across projects.",
+      "Chrome Extension for Webflow (Full-Stack): React, Nest + Firebase",
+      "Enabled enhanced Webflow functionality for internal or client use."
+    ],
+    "desc1": [
+      "Built a platform for a Canadian mortgage company that helps over 1 million users make smarter financial decisions.",
+      "Led the development of high performance customer facing application using React.js, Redux Toolkit, Redux-saga, TypeScript, Styled-Components, Parcel. Project was from the scratch.",
+      "Collaborated with UX designers to build a user-friendly interface that enhanced user experience and increased session duration by 62%",
+      "Developed a Google Chrome extension for the Webflow team, enabling them to speed up their workflow by 89% using React, NestJS, and Firebase.",
+      "Built own UI-library that includes theming, components, elements, hooks, types, utils etc."
+    ],
+
+    "exp2": "Ezbob",
+    "role2": "Senior Frontend Developer / full time",
+    "date2": "Jul 2023 - March 2025",
+    "loca2": "Remote",
+    "contributions2": [
+      "Implemented a client-side caching mechanism that improved system efficiency and reduced response times by 50%.",
+      "Mentored a junior developer, fostering a knowledge-sharing culture that contributed to a 15% improvement in their output and confidence.",
+      "Led regular code reviews, significantly enhancing codebase quality and increasing overall team efficiency by 25%.",
+      "Refactored and optimized existing code for performance and maintainability.",
+      "Built new features from the ground up."
+    ],
+    "companyOverview2": "Ezbob is a leading fintech company with over a decade of experience in transforming digital lending for major financial institutions worldwide. The company specializes in solutions such as loan calculators and end-to-end lending platforms.",
+    "team2": "Collaborated within a cross-functional team comprising ~7 frontend developers, 7 backend developers, a designer, product manager, Scrum Master, and product owner. Operated in a fully English-speaking environment.",
+    "desc2": [
+      "For over a decade, Ezbob has pioneered the digital lending transformation of leading financial institutions worldwide.",
+      "Implemented caching mechanism which improved system efficiency and response time by 50%.",
+      "Technically mentored junior developer, fostering a supportive learning environment that led to 15%",
+      "Conducted regular code reviews, improving product quality and developer productivity by 25%.improvement in team efficiency."
+    ],
+
+    "exp3": "WAPP",
+    "role3": "Senior Frontend Developer / full time",
+    "date3": "Jun 2021 - Jan 2022",
+    "loca3": "Remote",
+    "team3": "Worked within the same small, agile team as at Row Dev: 2 frontend developers, 1 backend developer, a team lead, a designer, and a project manager.",
+    "companyOverview3": "WAPP was a product-focused subsidiary of Row Dev, dedicated to developing a web application for taxi companies. The platform aimed to streamline driver monitoring and payment management in Moscow’s taxi market.",
+    "contributions3": [
+      "Engineered a full-featured aggregator application for taxi services using Next.js, GraphQL, and Webpack, which led to more than doubling company profits.",
+      "Upgraded the system from a traditional SQL database to Firebase (NoSQL), resulting in a 30% increase in application speed and scalability.",
+      "Introduced and standardized design patterns across the codebase, improving code readability and maintainability by 35%.",
+      "Gained hands-on experience in both frontend and backend development, including database modeling, API design, and UI implementation."
+    ],
+    "desc3": [
+      "Engineered an aggregator application for taxis using Next.js, GraphQl and Webpack, which allowed to increase profits more than 2 times",
+      "Increased application speed by 30% by upgrading the database from SQL to NoSQL using Firebase.",
+      "Standardized application design using design patterns which improved code readability and maintainability by 35%."
+    ],
+
+    "exp4": "Row-dev",
+    "role4": "Junior-Senior Frontend Developer / full time",
+    "date4": "Nov 2016 - Jun 2021",
+    "loca4": "Remote",
+    "contributions4": [
+      "Developed responsive, conversion-focused landing pages using HTML/CSS. Collaborated with content creators to improve content structure and write effective headlines.",
+      "Set up and managed Yandex Direct and Google Ads campaigns, contributing to the agency's client growth in the local market.",
+      "Began exploring modern JavaScript frameworks to stay competitive:",
+      "Started with Angular, drawn by its structured, class-based architecture.",
+      "Transitioned to React, recognizing its popularity in real-world projects.",
+      "Contributed to a web platform for taxi companies in Moscow, helping manage payments and monitor drivers in real-time."
+    ],
+    "team4": "Initially joined as a layout developer, collaborating with a core team based in Ukraine. Progressed into a React developer role within a small, agile team: 2 frontend developers, 1 backend developer, a team lead, a designer, and a project manager.",
+    "companyOverview4": "Row Dev was a boutique digital agency focused on developing high-conversion landing pages and custom web applications for local clients. This role marked my first professional experience in web development.",
+    "desc4": [
+      "Designed, implemented and relaunched web applications based on React",
+      "Created and designed layouts using HTML, CSS, JS, Node, Sass, Git. More than 20 projects saw the light in 2 years"
+    ]
+  },
+  "Contact": {
+    "section": "Contact",
+    "p1": "Got an idea you'd like to explore? Feel free to drop me an email — I'm always open to connecting. Prefer",
+    "p2": "? You can reach me there too!",
+    "contact": "Contact"
+  }
+}
