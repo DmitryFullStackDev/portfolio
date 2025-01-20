@@ -2,6 +2,8 @@
 import {Navbar} from '@/components/nav/Navbar';
 import {SideBar} from '@/components/nav/SideBar';
 import {Hero} from '@/components/hero/Hero';
+import {About} from '@/components/about/About';
+import {Contact} from '@/components/contact/Contact';
 import styles from "@/components/utils/home.module.scss";
 
 const Home = () => {
@@ -10,8 +12,10 @@ const Home = () => {
       <div className={styles.home}>
         <SideBar />
         <main id="main">
-          <Navbar />
+           <Navbar />
           <Hero />
+          <About />
+          <Contact />
         </main>
       </div>
     </>
