@@ -93,12 +93,14 @@ export const ShowcaseItem = ({
             <div className={styles.projectTech}>{tech.join(" - ")}</div>
           </Reveal>
           <Reveal>
-            <p className={styles.projectDescription}>
-              {desc}
-            </p>
-            <p className={styles.projectDescription}>
-            <span onClick={() => setIsOpen(true)} aria-label="View Details">Details {">"}</span>
-            </p>
+            <>
+              <p className={styles.projectDescription}>
+                {desc}
+              </p>
+              <p className={styles.projectDescription}>
+              <span onClick={() => setIsOpen(true)} aria-label="View Details">Details {">"}</span>
+              </p>
+            </>
           </Reveal>
         </div>
       </motion.div>
