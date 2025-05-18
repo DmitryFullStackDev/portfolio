@@ -5,18 +5,32 @@ import {ModalItem} from "@/components/experience/ModalItem";
 
 export const Experience = () => {
   const t = useTranslations("Experience");
-  const messages = useMessages();
-  const desc1 = (messages.Experience as { desc1: string[] }).desc1;
-  const desc2 = (messages.Experience as { desc2: string[] }).desc2;
-  const desc3 = (messages.Experience as { desc3: string[] }).desc3;
-  const desc4 = (messages.Experience as { desc4: string[] }).desc4;
+  const rawMessages = useMessages();
+  const experienceMessages = rawMessages.Experience;
 
-  const contributions1 = (messages.Experience as { contributions1: string[] }).contributions1;
-  const contributions2 = (messages.Experience as { contributions2: string[] }).contributions2;
-  const contributions3 = (messages.Experience as { contributions3: string[] }).contributions3;
-  const contributions4 = (messages.Experience as { contributions4: string[] }).contributions4;
+  if (typeof experienceMessages !== "object" || experienceMessages === null) {
+    throw new Error("Invalid format for messages.Experience");
+  }
 
-
+  const {
+    desc1,
+    desc2,
+    desc3,
+    desc4,
+    contributions1,
+    contributions2,
+    contributions3,
+    contributions4,
+  } = experienceMessages as {
+    desc1: string[];
+    desc2: string[];
+    desc3: string[];
+    desc4: string[];
+    contributions1: string[];
+    contributions2: string[];
+    contributions3: string[];
+    contributions4: string[];
+  };
 
   const experiences = [
     {
