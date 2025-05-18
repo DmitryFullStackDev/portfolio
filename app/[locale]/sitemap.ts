@@ -1,8 +1,8 @@
 import { MetadataRoute } from "next";
-import {url} from "@/app/[locale]/layout";
+
+const url = "https://yushkevichDmitry.com"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-
 
   return [
     {
