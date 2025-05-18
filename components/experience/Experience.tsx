@@ -21,7 +21,7 @@ export const Experience = () => {
     contributions2,
     contributions3,
     contributions4,
-  } = experienceMessages as {
+  } = experienceMessages as unknown as {
     desc1: string[];
     desc2: string[];
     desc3: string[];
