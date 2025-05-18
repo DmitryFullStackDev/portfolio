@@ -1,5 +1,4 @@
 interface Props {
-  title: string;
   companyOverview: string;
   team: string;
   contributions: string[];
