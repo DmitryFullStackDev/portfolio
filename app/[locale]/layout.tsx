@@ -16,7 +16,7 @@ export const viewport: Viewport = {
   maximumScale: 2,
 };
 
-const url = "https://yushkevichDmitry.com"
+const url = "https://yushkevich-dmitry.com"
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
