@@ -1,3 +1,5 @@
+import {useTranslations} from "next-intl";
+
 interface Props {
   companyOverview: string;
   team: string;
@@ -10,13 +12,15 @@ export const ModalItem = ({
   contributions,
 
 }: Props) => {
+    const t = useTranslations("Experience");
+
     return (
       <>
-          <h3>Company Overview</h3>
+          <h3>{t('companyOverview')}</h3>
           <p>{companyOverview}</p>
-          <h3>Team & Environment:</h3>
+          <h3>{t('teamEnvironment')}</h3>
           <p>{team}</p>
-          <h3>Key Contributions:</h3>
+          <h3>{t('keyContributions')}</h3>
           <ul>
               {contributions.map((el, i) => (
                   <li key={i}>{el}</li>
