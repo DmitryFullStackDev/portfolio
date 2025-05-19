@@ -39,7 +39,7 @@ export const Experience = () => {
       date: t("date1"),
       location: t("loca1"),
       description: desc1,
-      modal: <ModalItem team={'team1'} companyOverview={'companyOverview1'} contributions={contributions1}/>,
+      modal: <ModalItem team={t('team1')} companyOverview={t('companyOverview1')} contributions={contributions1}/>,
       tech: [
         "Next.js",
         "React",

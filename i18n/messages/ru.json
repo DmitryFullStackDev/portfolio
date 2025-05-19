@@ -34,6 +34,9 @@
   },
   "Experience": {
     "section": "Опыт работы",
+    "companyOverview": "Обзор компании",
+    "teamEnvironment:": "Команда и среда:",
+    "keyContributions:": "Ключевые достижения:",
     "exp1": "EGO Creatives Innovations",
     "role1": "Старший фронтенд-разработчик / частичная занятость",
     "date1": "Февраль 2022 - настоящее время",

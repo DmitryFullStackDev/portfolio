@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8c806ff4-8dee-4875-a13c-17d546460996" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[locale]/sitemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/[locale]/sitemap.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/experience/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/experience/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/messages/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/messages/ru.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +23,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/dmitryyushkevich/WebstormProjects/portfolio/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/dmitryyushkevich/WebstormProjects/portfolio/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +46,7 @@
       <workItem from="1747577643457" duration="137000" />
       <workItem from="1747577841536" duration="5000" />
       <workItem from="1747577902544" duration="2770000" />
+      <workItem from="1747659350419" duration="223000" />
     </task>
     <servers />
   </component>
