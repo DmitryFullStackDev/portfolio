@@ -35,9 +35,9 @@
   },
   "Experience": {
     "section": "Experience",
-    "companyOverview" : "Company Overview",
-    "teamEnvironment:": "Team & Environment:",
-    "keyContributions:": "Key Contributions:",
+    "companyOverview": "Company Overview",
+    "teamEnvironment": "Team & Environment:",
+    "keyContributions": "Key Contributions:",
     "exp1": "EGO Creatives Innovations",
     "role1": "Senior Frontend Developer / part time",
     "date1": "February 2022 - Present",

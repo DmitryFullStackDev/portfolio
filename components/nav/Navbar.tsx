@@ -36,7 +36,7 @@ const newPath = currentPath.includes("/ru")
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}>
           <a
-            href={currentPath.includes("/ru") ? "https://drive.google.com/file/d/12ACsLZVCNNoia912n1D0CXtvDtTzrUrw/view?usp=sharing" : "https://drive.google.com/file/d/12ACsLZVCNNoia912n1D0CXtvDtTzrUrw/view?usp=sharing"}
+            href={currentPath.includes("/ru") ? "https://drive.google.com/file/d/1ghjjoYpni4_JFbGbkLglSkN-XxweMXAc/view?usp=sharing" : "https://drive.google.com/file/d/12ACsLZVCNNoia912n1D0CXtvDtTzrUrw/view?usp=sharing"}
             target="_blank"
             rel="nofollow"
             title="Resume">

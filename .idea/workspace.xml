@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8c806ff4-8dee-4875-a13c-17d546460996" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/experience/ModalItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/experience/ModalItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/nav/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/nav/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/messages/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/messages/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/messages/ru.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
       <workItem from="1747577643457" duration="137000" />
       <workItem from="1747577841536" duration="5000" />
       <workItem from="1747577902544" duration="2770000" />
-      <workItem from="1747659350419" duration="457000" />
+      <workItem from="1747659350419" duration="2141000" />
     </task>
     <servers />
   </component>
