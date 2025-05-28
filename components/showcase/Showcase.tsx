@@ -22,8 +22,7 @@ export const Showcase = () => {
         </TransitionLink>
       </div>
 
-      <div className={styles.projects}>
-        {projects.map((project) => {
+      <div className={styles.projects}>{projects.map((project) => {
           return <ShowcaseItem key={project.title} {...project} />;
         })}
       </div>

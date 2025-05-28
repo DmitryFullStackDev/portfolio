@@ -31,7 +31,8 @@
     "desc8": "A full stack application built with React and Express for displaying public transport stop information. It features dynamic data fetching, filtering, and a clean UI for exploring nearby stops.",
     "desc9": "A React + Three.js application that renders and interacts with a 3D human model in the browser. Built with @react-three/fiber for smooth WebGL integration and real-time 3D rendering.",
     "desc10": "A minimal project using React and @react-three/fiber to render and animate 3D objects in the browser. Great for experimenting with Three.js in a React environment.",
-    "desc11": "A React + TypeScript project simulating submarine control and navigation with interactive UI elements and real-time state updates, showcasing complex component interactions."
+    "desc11": "A React + TypeScript project simulating submarine control and navigation with interactive UI elements and real-time state updates, showcasing complex component interactions.",
+    "desc12": "Goose is full-stack app. Log and pass admin/admin or user/user. Admin can create rounds, user can only tap on goose. More information you can find inside github links"
   },
   "Experience": {
     "section": "Experience",

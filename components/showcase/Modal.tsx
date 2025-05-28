@@ -11,7 +11,7 @@ interface Props {
   setIsOpen: Function;
   title: string;
   img: string;
-  code: string;
+  code: string[];
   link: string;
   tech: string[];
   modal: JSX.Element;
@@ -58,10 +58,12 @@ export const Modal = ({
             </p>
             <div className={styles.spaceBetween}>
               <div className={styles.links}>
-                <a target="_blank" rel="nofollow" href={code} title="GitHub" aria-label="View Code">
-                  <AiFillGithub />
-                  Code
-                </a>
+                {code.map((el, i) => (
+                  <a key={el} target="_blank" rel="nofollow" href={el} title="GitHub" aria-label="View Code">
+                    <AiFillGithub />
+                    {i === 0 ? 'FE code' : "BE code"}
+                  </a>
+                ))}
                 <a target="_blank" rel="nofollow" href={link} title="Demo"aria-label="View Website">
                   <AiOutlineExport />
                   Demo
