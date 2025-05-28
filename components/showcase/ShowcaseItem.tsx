@@ -12,7 +12,7 @@ interface Props {
   img: string;
   tech: string[];
   title: string;
-  code: string;
+  code: string[];
 }
 
 export const ShowcaseItem = ({
@@ -80,9 +80,11 @@ export const ShowcaseItem = ({
               <h4>{title}</h4>
               <div className={styles.projectTitleLine} />
 
-              <a href={code} target="_blank" rel="nofollow" title="GitHub" aria-label="View Code">
-                <AiFillGithub size="2.8rem" />
-              </a>
+              {code.map(el => (
+                <a href={el} key={el} target="_blank" rel="nofollow" title="GitHub" aria-label="View Code">
+                  <AiFillGithub size="2.8rem" />
+                </a>
+              ))}
 
               <a href={link} target="_blank" rel="nofollow" title="Demo" aria-label="View Website">
                 <AiOutlineExport size="2.8rem" />
