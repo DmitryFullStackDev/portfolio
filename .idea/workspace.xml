@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c806ff4-8dee-4875-a13c-17d546460996" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/gallery/goose.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/showcase/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/showcase/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/showcase/Showcase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/showcase/Showcase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/useGetProjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/useGetProjects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/messages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/messages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/messages/ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/i18n/messages/ru.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
       <workItem from="1747674136644" duration="2000" />
       <workItem from="1748013818281" duration="755000" />
       <workItem from="1748164872740" duration="4000" />
-      <workItem from="1748426866211" duration="1507000" />
+      <workItem from="1748426866211" duration="2771000" />
     </task>
     <servers />
   </component>
