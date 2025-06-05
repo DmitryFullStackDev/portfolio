@@ -29,7 +29,15 @@ export const metadata: Metadata = {
     title: "Dmitry Yushkevich",
     description: "Versatile full-stack developer specializing in Next.js and React, with a comprehensive tech stack.",
     url,
-    type: "website"
+    type: "website",
+    images: [
+      {
+        url: "/assets/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Dmitry Yushkevich Portfolio",
+      },
+    ],
   },
 };
 
