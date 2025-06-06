@@ -39,6 +39,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dmitry Yushkevich",
+    description: "Versatile full-stack developer specializing in Next.js and React, with a comprehensive tech stack.",
+    images: ["/assets/preview.png"],
+  },
 };
 
 export default async function RootLayout({
